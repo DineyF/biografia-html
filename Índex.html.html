@@ -1,29 +1,127 @@
-<div class="container">
+html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Claudinei Franco Schisler</title>
 
-    <h1>Claudinei Franco Schisler</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            margin: 0;
+        }
 
-    <!-- Foto clicável -->
-    <a href="https://www.instagram.com/claudinei_schisler" target="_blank">
-        <img src="minha-foto.jpg" alt="Minha foto">
-    </a>
+        .container {
+            background: white;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
 
-    <h2>Biografia</h2>
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px 0;
+            border: 3px solid #4facfe;
+        }
 
-    <h3>
-        Meu nome é Claudinei Franco Schisler, sou estudante de Análise e Desenvolvimento de Sistemas 
-        na Fasipe de Sorriso. Tenho interesse na área de tecnologia e estou sempre em busca de novos 
-        conhecimentos para crescer profissionalmente.
-    </h3>
+        h1 {
+            color: #333;
+        }
 
-    <h3>
-        Escolhi o curso de ADS porque gosto de tecnologia e quero trabalhar com desenvolvimento de sistemas, 
-        criando soluções úteis e inovadoras que possam facilitar o dia a dia das pessoas.
-    </h3>
+        h2 {
+            color: #555;
+        }
 
-    <!-- Botões -->
-    <div>
-        <a href="https://www.instagram.com/claudinei_schisler" target="_blank" class="btn">Instagram</a>
-        
+        h3 {
+            color: #666;
+            text-align: justify;
+        }
+
+        /* BOTÕES */
+        .social-buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+        }
+
+        .instagram:hover {
+            transform: scale(1.1);
+        }
+
+        .github {
+            background: #333;
+        }
+
+        .github:hover {
+            background: #000;
+            transform: scale(1.1);
+        }
+
+        .linkedin {
+            background: #0077b5;
+        }
+
+        .linkedin:hover {
+            background: #005582;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Claudinei Franco Schisler</h1>
+
+        <!-- Foto clicável -->
+        <a href="C:\Users\vinic\OneDrive\Documentos\teste\minha-foto.jpg.jpeg">
+            <img src="minha-foto.jpg" alt="Minha foto">
+        </a>
+
+        <h2>Biografia</h2>
+
+        <h3>
+            Meu nome é Claudinei Franco Schisler, sou estudante de Análise e Desenvolvimento de Sistemas 
+            na Fasipe de Sorriso. Tenho interesse na área de tecnologia e estou sempre em busca de novos 
+            conhecimentos para crescer profissionalmente.
+        </h3>
+
+        <h3>
+            Escolhi o curso de ADS porque gosto de tecnologia e quero trabalhar com desenvolvimento de sistemas, 
+            criando soluções úteis e inovadoras que possam facilitar o dia a dia das pessoas.
+        </h3>
+
+        <!-- BOTÕES -->
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/claudinei_schisler" target="_blank" class="btn instagram">
+                Instagram
+            
+            </a>
+        </div>
+
     </div>
 
-</div>
+</body>
+</html>
